@@ -1,0 +1,185 @@
+1. What are the two values of the Boolean data type? How do you write them?
+
+Ans:-  Boolean data values are "True" and "False"
+       They are written as True/False with first letter in capitals.
+       
+       
+       
+
+2. What are the three different types of Boolean operators?     
+
+Ans:- 'AND' 'OR' and 'NOT' are the three types of boolean operators.
+
+
+
+
+3. Make a list of each Boolean operator's truth tables (i.e. every possible combination of Boolean values for the operator and what it evaluates).
+
+Ans:- "And" operator   "OR" operator      "NOT" operator
+       T and T = T      T or T = T          A     not A
+       T and F = F      T or F = T          
+       F and T = F      F or T = T          T      F
+       F and F = F      F or F = F          F      T
+       
+      Where T = True
+            F = False
+            
+            
+            
+            
+4. What are the values of the following expressions?
+(5 > 4) and (3 == 5)
+not (5 > 4)
+(5 > 4) or (3 == 5)
+not ((5 > 4) or (3 == 5))
+(True and True) and (True == False)
+(not False) or (not True)
+
+Ans :- print((5 > 4) and (3 == 5))        [False]
+       print(not (5 > 4))                 [False]
+       print((5 > 4) or (3 == 5))         [True]
+       print(not ((5 > 4) or (3 == 5)))   [False]
+       
+       
+       
+       
+       
+       
+5. What are the six comparison operators?
+
+Ans. For example a = 10 and b = 20
+  == (Equals to) i.e. [a==b; false]
+  != (not equals to) i.e. [a ! = b;  true]
+  >   (greater than) i.e. [a>b ; false]
+  <  (less than) i.e. [a<b; true]
+  >= (greater than or equals to ) i.e.[a >= b ;false ]
+  <= (less than or equals to ) i.e. [a <= b ; true]
+  
+  
+  
+  
+  
+  
+6. How do you tell the difference between the equal to and assignment operators?Describe a condition and when you would use one.
+
+Ans:- Equal operator is ‘==’ evaluates the equality between operands
+      Assignment operator ‘=’ assigns the value to a variable.
+       
+   For example :- x = 10
+                  y = 45
+                  z = 45 (we assigned values to variables)
+                  
+                  x == y (False because we assigned different values to x and y)
+                  y == z (True because we assigned equal values to y and z)
+                  
+                  
+                  
+                  
+                  
+                  
+7. Identify the three blocks in this code:
+spam = 0
+if spam == 10:
+print('eggs')
+if spam > 5:
+print('bacon')
+else:
+print('ham')
+print('spam')
+print('spam')
+
+Ans:- spam = 0
+
+FIRST BLOCK
+if spam == 10:
+    print('eggs')
+    
+SECOND BLOCK    
+if spam > 5:
+    print('bacon')
+    
+THIRD BLOCK    
+else:
+    print('ham')
+    print('spam')
+    print('spam')
+    
+    
+    
+    
+
+                 
+8. Write code that prints Hello if 1 is stored in spam, prints Howdy if 2 is stored in spam, and prints Greetings! if anything else is stored in spam.
+ 
+Ans:- spam = int (input())
+if spam >=1 and spam <=2:
+    if spam==1:
+        print ("Hello")
+    elif spam==2:
+        print ("Howdy")
+else : 
+    print("greetings")
+    
+    
+    
+    
+    
+    
+9.If your programme is stuck in an endless loop, what keys you’ll press? 
+
+Ans:- ctrl + c 
+     or may be we can create exit condition
+     
+     
+     
+     
+     
+     
+10. How can you tell the difference between break and continue?
+
+Ans:- Break takes the control out of the conditional loop or iteration.
+      Continue takes the control to next loop or iteration in the conditional loop 
+      
+      
+      
+      
+      
+      
+11. In a for loop, what is the difference between range(10), range(0, 10), and range(0, 10, 1)?
+
+Ans:-The output for all is same but the difference is way of writing the condition.
+
+
+
+
+
+
+12. Write a short program that prints the numbers 1 to 10 using a for loop. Then write an equivalent program that prints the numbers 1 to 10 using a while loop.
+
+Ans:- for i in range(1,11):
+           print(i)
+                 
+      i = 0
+      while i <=10:
+           print(i)
+           i += 1 
+           
+           
+           
+           
+           
+           
+13. If you had a function named bacon() inside a module named spam, how would you call it after importing spam?   
+ 
+Ans:- import spam
+
+      spam.bacon()
+      
+       
+       
+       
+       
+       
+       
+       
+       
